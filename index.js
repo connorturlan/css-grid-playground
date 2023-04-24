@@ -24,8 +24,8 @@ const table = document.getElementById("content-table")
 
 // create the title row.
 const title = addRow(table, true)
-addCell(title, "title")
-addCell(title, "content")
+addCell(title, "title", true)
+addCell(title, "content", true)
 
 tableContent.forEach(i => {
     // create the row.
